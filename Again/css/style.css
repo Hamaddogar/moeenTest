@@ -1,0 +1,43 @@
+#main{
+    display: inline-flex;
+    gap: 20px;
+     padding-left: 200px;
+      border: 2px solid red;
+      height: 3500px;
+   
+}
+
+#box2{
+    width: 200px;
+     height: 200px;
+      background-color: red;
+        
+      /* animation: linear 10s myrotete; */
+}
+#box3{
+    width: 200px;
+     height: 200px;
+      /* animation: linear 10s myrotete; */
+      background-color: green;
+      top:34px;
+      left:45px;
+       position: sticky;
+      
+
+}#box4{
+    width: 200px;
+     height: 200px;
+      background-color: yellow;
+      /* animation: linear 10s myrotete; */
+
+}
+@keyframes myrotete {
+     from{
+         transform: rotate(90deg);
+     }
+      to{
+        transform: rotate(360deg);
+
+      }
+    
+}
